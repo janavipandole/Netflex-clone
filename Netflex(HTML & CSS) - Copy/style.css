@@ -1,0 +1,278 @@
+ * {
+     padding: 0;
+     margin: 0;
+     font-family: "Montserrat", sans-serif;
+ }
+
+ body {
+     background-color: black;
+ }
+
+ .main {
+     background-position: center center;
+     background-image: url("bg.jpg");
+     background-size: max(1200px, 100vw);
+     background-repeat: no-repeat;
+     height: 644px;
+     position: relative;
+
+ }
+
+ .main .box {
+     height: 644px;
+     width: 100%;
+     opacity: 0.69;
+     top: 0;
+     position: absolute;
+     background-color: black;
+
+ }
+
+ nav {
+     display: flex;
+     max-width: 60vw;
+     justify-content: space-between;
+     margin: auto;
+     align-items: center;
+     height: 100px;
+ }
+
+ nav img {
+     color: red;
+     width: 140px;
+     position: relative;
+     z-index: 10;
+ }
+
+ nav button {
+
+     position: relative;
+     z-index: 10;
+ }
+
+ .hero {
+     height: calc(100% - 100px);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     color: white;
+     position: relative;
+     gap: 23px;
+     padding: 0 30px;
+
+ }
+
+ .hero> :nth-child(1) {
+     font-weight: bolder;
+     font-size: 48px;
+     text-align: center;
+
+ }
+
+ .hero> :nth-child(2) {
+     font-weight: 400;
+     font-size: 24px;
+     text-align: center;
+
+
+ }
+
+ .hero> :nth-child(3) {
+     font-weight: 400;
+     font-size: 20px;
+     text-align: center;
+
+ }
+
+ .sepration {
+     height: 10px;
+     background-color: rgb(26, 21, 21);
+     position: relative;
+     z-index: 20;
+ }
+
+
+ .btn {
+     padding: 5px 11px;
+     font-weight: 400;
+     background-color: rgba(248, 243, 243, 0.021);
+     color: white;
+     border: 1px solid white;
+     border-radius: 4px;
+     cursor: pointer;
+
+ }
+
+ select {
+     background-color: transparent;
+     border: none;
+     color: white;
+ }
+
+ .btn-red-sm {
+
+     background-color: red;
+     color: white;
+ }
+
+ .btn-red {
+     background-color: red;
+     color: white;
+     padding: 3px 24px;
+     font-size: 20px;
+     border-radius: 4px;
+     font-weight: 400;
+
+ }
+
+ .hero-button {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 16px
+ }
+
+ .main input {
+     padding: 7px 101px 8px 14px;
+     color: white;
+     font-size: 12px;
+     border-radius: 4px;
+     background-color: rgba(23, 23, 23, 0.7);
+     border: 1px solid rgba(23, 23, 23, 0.5);
+
+ }
+
+ .first {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     max-width: 70vw;
+     margin: auto;
+     color: white;
+ }
+
+ .secImg {
+     position: relative;
+ }
+
+ .secImg {
+     position: relative;
+ }
+
+ .secImg img {
+     width: 555px;
+     position: relative;
+     z-index: 10;
+ }
+
+ .secImg video {
+     position: absolute;
+     top: 0px;
+     width: 555px;
+     right: 0;
+ }
+
+ section.first>div {
+     font-size: 48px;
+     font-weight: bolder;
+ }
+
+ section.first div :nth-child(1) {
+     font-size: 40px;
+     font-weight: bolder;
+ }
+
+ section.first>div :nth-child(2) {
+     font-size: 20px;
+
+ }
+
+ .video {
+     position: absolute;
+     top: 0px;
+     right: 0;
+     margin-top: 30px;
+     width: 300px;
+     height: 200px;
+ }
+
+ .faq h1 {
+     text-align: center;
+
+ }
+
+ .faq {
+     background-color: black;
+     color: white;
+     padding: 34px;
+
+ }
+
+ .faqbox {
+     transition: all 2s ease-out;
+     background-color: rgba(128, 128, 128, 0.183);
+     padding: 24px;
+     color: white;
+     max-width: 80vw;
+     font-size: 30px;
+     justify-content: space-between;
+     opacity: 10;
+     display: flex;
+     margin: 10px auto;
+     cursor: pointer;
+
+ }
+
+ .faqbox:hover {
+     background-color: rgba(240, 255, 255, 0);
+     border: 1px solid white;
+ }
+
+ .hero-bot {
+     padding: 7px 101px 8px 14px;
+     color: white;
+     font-size: 12px;
+     border-radius: 4px;
+     background-color: rgba(170, 149, 149, 0.7);
+     border: 1px solid rgba(23, 23, 23, 0.5);
+
+ }
+
+ footer {
+     max-width: 60vw;
+     color: white;
+     margin: auto;
+     padding: 14px;
+     font-size: medium;
+
+ }
+
+ .Questions {
+     padding: 20px 0;
+ }
+ .end{
+    margin-bottom: 0px;
+ }
+
+ .footer {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     color: white;
+
+
+
+ }
+
+ .footer a {
+     color: white;
+     margin-top: 20px;
+     text-decoration: none;
+ }
+
+ .footer-items {
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+
+ }
